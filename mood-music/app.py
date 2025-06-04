@@ -75,7 +75,7 @@ if mood:
 
     for v in videos:
         st.markdown(f"**{v['title']}**")
-        st.markdown(f"[▶️ İzle](https://www.youtube.com{v['url_suffix']})")
+        st.markdown(f"[▶️ Watch on YouTube](https://www.youtube.com{v['url_suffix']})")
 
     if st.button("🎲 You didn't like it? Try again"):
         st.session_state.video_offset += 5
