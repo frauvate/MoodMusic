@@ -74,13 +74,9 @@ if mood:
     videos = search_youtube(query)
 
     for v in videos:
-        title = v['title']
-        url = f"https://www.youtube.com{v['url_suffix']}"
-        video_id = v['url_suffix'].split('=')[-1]
+        st.markdown(f"**{v['title']}**")
+        st.markdown(f"[▶️ İzle](https://www.youtube.com{v['url_suffix']})")
 
-        st.markdown(f"### {title}")
-        st.video(f"https://www.youtube.com/embed/{video_id}")
-    
     if st.button("🎲 You didn't like it? Try again"):
         st.session_state.video_offset += 5
         st.rerun()  # Rerun the app to show more videos
