@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ Tech Used
+## 🛠️ Requirements
 
 - `Python`
 - `Transformers (HuggingFace)`
@@ -40,3 +40,18 @@ streamlit run app.py
 ```
 
 ---
+
+## 🤝 Contributing
+
+This project was built as a part of my personal exploration of ML models and web apps using Streamlit. Feel free to give me feedback or contribute. 
+Open to new ideas! [Reach out to me](https://www.linkedin.com/in/esma-yyildirim/)
+
+---
+
+## 📝 License 
+
+This project is licensed under the MIT license. See the license tab for more details. 
+
+---
+
+Made with ❤️ by Esma
